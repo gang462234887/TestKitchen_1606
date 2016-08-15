@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F95CFFB2B7C8F456C0AE37F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F786B4B5E0035F129767A8 /* Pods_TestKitchen.framework */; };
 		BC385BE21D6151B300C5BFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385BE11D6151B300C5BFA6 /* AppDelegate.swift */; };
 		BC385BE41D6151B300C5BFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385BE31D6151B300C5BFA6 /* ViewController.swift */; };
 		BC385BE71D6151B300C5BFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC385BE51D6151B300C5BFA6 /* Main.storyboard */; };
@@ -25,6 +26,17 @@
 		BC385C411D61554700C5BFA6 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC385C361D61554700C5BFA6 /* LaunchImage-800-667h@2x.png */; };
 		BC385C421D61554700C5BFA6 /* LaunchImage-800-Landscape-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC385C371D61554700C5BFA6 /* LaunchImage-800-Landscape-736h@3x.png */; };
 		BC385C431D61554700C5BFA6 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC385C381D61554700C5BFA6 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		BC385C451D615A6F00C5BFA6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C441D615A6F00C5BFA6 /* MainTabBarController.swift */; };
+		BC385C471D615ABE00C5BFA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C461D615ABE00C5BFA6 /* BaseViewController.swift */; };
+		BC385C491D615B0500C5BFA6 /* CookBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C481D615B0500C5BFA6 /* CookBookViewController.swift */; };
+		BC385C4B1D615B3000C5BFA6 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C4A1D615B3000C5BFA6 /* CommunityViewController.swift */; };
+		BC385C4D1D615B6000C5BFA6 /* MallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C4C1D615B6000C5BFA6 /* MallViewController.swift */; };
+		BC385C4F1D615B8B00C5BFA6 /* FoodClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C4E1D615B8B00C5BFA6 /* FoodClassViewController.swift */; };
+		BC385C511D615BB800C5BFA6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C501D615BB800C5BFA6 /* ProfileViewController.swift */; };
+		BC385C531D61642A00C5BFA6 /* Ctrl.json in Resources */ = {isa = PBXBuildFile; fileRef = BC385C521D61642A00C5BFA6 /* Ctrl.json */; };
+		BC385C551D61733600C5BFA6 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C541D61733600C5BFA6 /* UIView+Util.swift */; };
+		BC385C571D6173C500C5BFA6 /* UILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C561D6173C500C5BFA6 /* UILabel+Util.swift */; };
+		BC385C591D61753100C5BFA6 /* UIButton+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385C581D61753100C5BFA6 /* UIButton+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08DB5A6CBD10F2116D781225 /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		27F786B4B5E0035F129767A8 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC385BDE1D6151B300C5BFA6 /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC385BE11D6151B300C5BFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC385BE31D6151B300C5BFA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +83,18 @@
 		BC385C361D61554700C5BFA6 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
 		BC385C371D61554700C5BFA6 /* LaunchImage-800-Landscape-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Landscape-736h@3x.png"; sourceTree = "<group>"; };
 		BC385C381D61554700C5BFA6 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		BC385C441D615A6F00C5BFA6 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BC385C461D615ABE00C5BFA6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BC385C481D615B0500C5BFA6 /* CookBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookBookViewController.swift; sourceTree = "<group>"; };
+		BC385C4A1D615B3000C5BFA6 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		BC385C4C1D615B6000C5BFA6 /* MallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallViewController.swift; sourceTree = "<group>"; };
+		BC385C4E1D615B8B00C5BFA6 /* FoodClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodClassViewController.swift; sourceTree = "<group>"; };
+		BC385C501D615BB800C5BFA6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BC385C521D61642A00C5BFA6 /* Ctrl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ctrl.json; sourceTree = "<group>"; };
+		BC385C541D61733600C5BFA6 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		BC385C561D6173C500C5BFA6 /* UILabel+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Util.swift"; sourceTree = "<group>"; };
+		BC385C581D61753100C5BFA6 /* UIButton+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Util.swift"; sourceTree = "<group>"; };
+		D1A8F43A0DBE58EF90FB6B2F /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F95CFFB2B7C8F456C0AE37F /* Pods_TestKitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +123,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17161A022CBFCE4B4966FDC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08DB5A6CBD10F2116D781225 /* Pods-TestKitchen.debug.xcconfig */,
+				D1A8F43A0DBE58EF90FB6B2F /* Pods-TestKitchen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C27F4198D95360E0D913A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F786B4B5E0035F129767A8 /* Pods_TestKitchen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC385BD51D6151B300C5BFA6 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +147,8 @@
 				BC385BF51D6151B400C5BFA6 /* TestKitchenTests */,
 				BC385C001D6151B400C5BFA6 /* TestKitchenUITests */,
 				BC385BDF1D6151B300C5BFA6 /* Products */,
+				17161A022CBFCE4B4966FDC3 /* Pods */,
+				2C27F4198D95360E0D913A31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +212,12 @@
 		BC385C101D6153F200C5BFA6 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C441D615A6F00C5BFA6 /* MainTabBarController.swift */,
+				BC385C461D615ABE00C5BFA6 /* BaseViewController.swift */,
+				BC385C521D61642A00C5BFA6 /* Ctrl.json */,
+				BC385C541D61733600C5BFA6 /* UIView+Util.swift */,
+				BC385C561D6173C500C5BFA6 /* UILabel+Util.swift */,
+				BC385C581D61753100C5BFA6 /* UIButton+Util.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -191,6 +243,7 @@
 		BC385C131D6153F200C5BFA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C4A1D615B3000C5BFA6 /* CommunityViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -230,6 +283,7 @@
 		BC385C181D6153F200C5BFA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C481D615B0500C5BFA6 /* CookBookViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -269,6 +323,7 @@
 		BC385C1D1D6153F200C5BFA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C4E1D615B8B00C5BFA6 /* FoodClassViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -308,6 +363,7 @@
 		BC385C221D6153F200C5BFA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C4C1D615B6000C5BFA6 /* MallViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -347,6 +403,7 @@
 		BC385C271D6153F200C5BFA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC385C501D615BB800C5BFA6 /* ProfileViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -413,9 +470,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC385C061D6151B400C5BFA6 /* Build configuration list for PBXNativeTarget "TestKitchen" */;
 			buildPhases = (
+				7446C8C5AF59F4307E5483CA /* [CP] Check Pods Manifest.lock */,
 				BC385BDA1D6151B300C5BFA6 /* Sources */,
 				BC385BDB1D6151B300C5BFA6 /* Frameworks */,
 				BC385BDC1D6151B300C5BFA6 /* Resources */,
+				6B77B42051172CB2B70CF5E6 /* [CP] Embed Pods Frameworks */,
+				5A0981ECCDE1C0638394C01D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -523,6 +583,7 @@
 				BC385C3F1D61554700C5BFA6 /* LaunchImage-700-568h@2x.png in Resources */,
 				BC385C3D1D61554700C5BFA6 /* AppIcon60x60@2x.png in Resources */,
 				BC385C3E1D61554700C5BFA6 /* AppIcon60x60@3x.png in Resources */,
+				BC385C531D61642A00C5BFA6 /* Ctrl.json in Resources */,
 				BC385C3A1D61554700C5BFA6 /* AppIcon29x29@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,13 +604,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A0981ECCDE1C0638394C01D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B77B42051172CB2B70CF5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7446C8C5AF59F4307E5483CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC385BDA1D6151B300C5BFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC385BE41D6151B300C5BFA6 /* ViewController.swift in Sources */,
+				BC385C471D615ABE00C5BFA6 /* BaseViewController.swift in Sources */,
+				BC385C4B1D615B3000C5BFA6 /* CommunityViewController.swift in Sources */,
+				BC385C491D615B0500C5BFA6 /* CookBookViewController.swift in Sources */,
+				BC385C4D1D615B6000C5BFA6 /* MallViewController.swift in Sources */,
+				BC385C591D61753100C5BFA6 /* UIButton+Util.swift in Sources */,
+				BC385C4F1D615B8B00C5BFA6 /* FoodClassViewController.swift in Sources */,
+				BC385C551D61733600C5BFA6 /* UIView+Util.swift in Sources */,
+				BC385C511D615BB800C5BFA6 /* ProfileViewController.swift in Sources */,
 				BC385BE21D6151B300C5BFA6 /* AppDelegate.swift in Sources */,
+				BC385C451D615A6F00C5BFA6 /* MainTabBarController.swift in Sources */,
+				BC385C571D6173C500C5BFA6 /* UILabel+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,11 +808,12 @@
 		};
 		BC385C071D6151B400C5BFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DB5A6CBD10F2116D781225 /* Pods-TestKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianfeng.TestKitchen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -702,11 +822,12 @@
 		};
 		BC385C081D6151B400C5BFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A8F43A0DBE58EF90FB6B2F /* Pods-TestKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianfeng.TestKitchen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -778,6 +899,7 @@
 				BC385C081D6151B400C5BFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC385C091D6151B400C5BFA6 /* Build configuration list for PBXNativeTarget "TestKitchenTests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +908,7 @@
 				BC385C0B1D6151B400C5BFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC385C0C1D6151B400C5BFA6 /* Build configuration list for PBXNativeTarget "TestKitchenUITests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +917,7 @@
 				BC385C0E1D6151B400C5BFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
