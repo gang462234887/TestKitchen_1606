@@ -27,6 +27,7 @@
             <connections>
                 <outlet property="scrollView" destination="Ayp-Ff-qmE" id="ucl-a6-fFP"/>
             </connections>
+            <point key="canvasLocation" x="195.5" y="295"/>
         </tableViewCell>
     </objects>
 </document>
