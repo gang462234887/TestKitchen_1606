@@ -14,7 +14,8 @@ import Foundation
 
 public enum WidgetType:Int{
     case GuessYourLike = 1  //猜你喜欢
-    case RedPackage = 2    //红包入口
+    case RedPackage = 2     //红包入口
+    case NewProduct = 5     //今日新品
     
 }
 
