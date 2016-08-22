@@ -41,7 +41,7 @@
                             <action selector="clickDetailBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jXj-P3-So9"/>
                         </connections>
                     </button>
-                    <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQ6-Xe-GIP" userLabel="secondBtn">
+                    <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQ6-Xe-GIP" userLabel="secondBtn">
                         <rect key="frame" x="125" y="80" width="125" height="80"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="80" id="osT-qz-ECN"/>

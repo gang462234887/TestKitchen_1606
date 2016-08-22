@@ -22,13 +22,13 @@ class CBHeaderView: UIView {
         bgView.backgroundColor = UIColor.whiteColor()
         addSubview(bgView)
         
-        let titleW:CGFloat = 100
+        let titleW:CGFloat = 160
         let imageW:CGFloat = 24
         
         let x = (bounds.size.width-titleW-imageW)/2
         
         //标题文字
-        titleLabel = UILabel.createLabel(nil, font: UIFont.boldSystemFontOfSize(18), textAlignment: .Center, textColor: UIColor.blackColor())
+        titleLabel = UILabel.createLabel(nil, font: UIFont.systemFontOfSize(18), textAlignment: .Center, textColor: UIColor.blackColor())
         titleLabel?.frame = CGRectMake(x, 13, titleW, bounds.size.height-10)
         addSubview(titleLabel!)
         

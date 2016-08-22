@@ -28,6 +28,10 @@ class CBRecommendADCell: UITableViewCell {
     
     
     func showData(){
+        //删除之前的子视图
+        for sub in scrollView.subviews{
+            sub.removeFromSuperview()
+        }
         
         let cnt = bannerArray?.count
         if cnt > 0 {
@@ -108,7 +112,7 @@ class CBRecommendADCell: UITableViewCell {
         
         var cell = tableView.dequeueReusableCellWithIdentifier(cellId) as? CBRecommendADCell
         if nil == cell {
-            cell = NSBundle.mainBundle().loadNibNamed("CBRecommendADCell", owner: nil, options: nil).last as? CBRecommendADCell
+          cell = NSBundle.mainBundle().loadNibNamed("CBRecommendADCell", owner: nil, options: nil).last as? CBRecommendADCell
         }
         
         //显示数据
