@@ -40,6 +40,7 @@ class CBWorksCell: UITableViewCell {
                         let btn = subView as! UIButton
                         //设置圆角
                         btn.layer.cornerRadius = 20
+                        btn.layer.masksToBounds = true
                         
                         let url = NSURL(string: (imageModel?.content)!)
                         btn.kf_setBackgroundImageWithURL(url, forState: .Normal, placeholderImage: UIImage(named: "sdefaultImage"), optionsInfo: nil, progressBlock: nil, completionHandler: nil)

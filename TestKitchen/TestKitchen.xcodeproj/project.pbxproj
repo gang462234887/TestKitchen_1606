@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F95CFFB2B7C8F456C0AE37F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F786B4B5E0035F129767A8 /* Pods_TestKitchen.framework */; };
+		BC10B7F61D6D3B0E0073AF1C /* CBMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B7F51D6D3B0E0073AF1C /* CBMaterialCell.swift */; };
 		BC28EF931D6A90600031FAB8 /* CBSceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC28EF911D6A90600031FAB8 /* CBSceneCell.swift */; };
 		BC28EF941D6A90600031FAB8 /* CBSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC28EF921D6A90600031FAB8 /* CBSceneCell.xib */; };
 		BC28EF971D6A97750031FAB8 /* CBTalentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC28EF951D6A97750031FAB8 /* CBTalentCell.swift */; };
@@ -99,6 +100,11 @@
 		BCF33FD11D640A3100F458CF /* sdefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF33FD01D640A3100F458CF /* sdefaultImage.png */; };
 		BCF33FD41D64174F00F458CF /* CBRecommendLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF33FD21D64174F00F458CF /* CBRecommendLikeCell.swift */; };
 		BCF33FD51D64174F00F458CF /* CBRecommendLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF33FD31D64174F00F458CF /* CBRecommendLikeCell.xib */; };
+		BCF7EBF51D6BDAC0001C1B64 /* CBSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7EBF31D6BDAC0001C1B64 /* CBSubjectCell.swift */; };
+		BCF7EBF61D6BDAC0001C1B64 /* CBSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF7EBF41D6BDAC0001C1B64 /* CBSubjectCell.xib */; };
+		BCF7EBFC1D6BEA3C001C1B64 /* CBMaterialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7EBFB1D6BEA3C001C1B64 /* CBMaterialModel.swift */; };
+		BCF7EBFE1D6BF6F9001C1B64 /* CBMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7EBFD1D6BF6F9001C1B64 /* CBMaterialView.swift */; };
+		BCF7EC001D6BFC56001C1B64 /* KTCSegmentCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7EBFF1D6BFC56001C1B64 /* KTCSegmentCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +127,7 @@
 /* Begin PBXFileReference section */
 		08DB5A6CBD10F2116D781225 /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		27F786B4B5E0035F129767A8 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC10B7F51D6D3B0E0073AF1C /* CBMaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialCell.swift; sourceTree = "<group>"; };
 		BC28EF911D6A90600031FAB8 /* CBSceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSceneCell.swift; sourceTree = "<group>"; };
 		BC28EF921D6A90600031FAB8 /* CBSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBSceneCell.xib; sourceTree = "<group>"; };
 		BC28EF951D6A97750031FAB8 /* CBTalentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTalentCell.swift; sourceTree = "<group>"; };
@@ -218,6 +225,11 @@
 		BCF33FD01D640A3100F458CF /* sdefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdefaultImage.png; sourceTree = "<group>"; };
 		BCF33FD21D64174F00F458CF /* CBRecommendLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendLikeCell.swift; sourceTree = "<group>"; };
 		BCF33FD31D64174F00F458CF /* CBRecommendLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBRecommendLikeCell.xib; sourceTree = "<group>"; };
+		BCF7EBF31D6BDAC0001C1B64 /* CBSubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSubjectCell.swift; sourceTree = "<group>"; };
+		BCF7EBF41D6BDAC0001C1B64 /* CBSubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBSubjectCell.xib; sourceTree = "<group>"; };
+		BCF7EBFB1D6BEA3C001C1B64 /* CBMaterialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialModel.swift; sourceTree = "<group>"; };
+		BCF7EBFD1D6BF6F9001C1B64 /* CBMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialView.swift; sourceTree = "<group>"; };
+		BCF7EBFF1D6BFC56001C1B64 /* KTCSegmentCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCSegmentCtrl.swift; sourceTree = "<group>"; };
 		D1A8F43A0DBE58EF90FB6B2F /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -346,6 +358,7 @@
 				BCED35EB1D62BD70006664B3 /* KTCDownloader.swift */,
 				BCF33FCD1D6407F700F458CF /* UIImageView+Util.swift */,
 				BCED57951D654BA000BA868F /* Util.swift */,
+				BCF7EBFF1D6BFC56001C1B64 /* KTCSegmentCtrl.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -393,6 +406,7 @@
 		BC385C161D6153F200C5BFA6 /* cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				BCF7EBF71D6BEA0B001C1B64 /* foodMaterial */,
 				BCED35ED1D62C61C006664B3 /* recommend */,
 				BC385C171D6153F200C5BFA6 /* homePage */,
 			);
@@ -689,6 +703,8 @@
 				BC28EF961D6A97750031FAB8 /* CBTalentCell.xib */,
 				BC28EF991D6AA6260031FAB8 /* CBWorksCell.swift */,
 				BC28EF9A1D6AA6260031FAB8 /* CBWorksCell.xib */,
+				BCF7EBF31D6BDAC0001C1B64 /* CBSubjectCell.swift */,
+				BCF7EBF41D6BDAC0001C1B64 /* CBSubjectCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -719,6 +735,40 @@
 				BCF33FD01D640A3100F458CF /* sdefaultImage.png */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		BCF7EBF71D6BEA0B001C1B64 /* foodMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7EBF81D6BEA0B001C1B64 /* controller */,
+				BCF7EBF91D6BEA0B001C1B64 /* model */,
+				BCF7EBFA1D6BEA0B001C1B64 /* view */,
+			);
+			path = foodMaterial;
+			sourceTree = "<group>";
+		};
+		BCF7EBF81D6BEA0B001C1B64 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BCF7EBF91D6BEA0B001C1B64 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7EBFB1D6BEA3C001C1B64 /* CBMaterialModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCF7EBFA1D6BEA0B001C1B64 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7EBFD1D6BF6F9001C1B64 /* CBMaterialView.swift */,
+				BC10B7F51D6D3B0E0073AF1C /* CBMaterialCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -857,6 +907,7 @@
 				BCED35E91D62B9D4006664B3 /* search@2x.png in Resources */,
 				BCED35C71D62A173006664B3 /* shike_select@2x.png in Resources */,
 				BCED35E11D62B9D4006664B3 /* LaunchImage-800-Landscape-736h@3x.png in Resources */,
+				BCF7EBF61D6BDAC0001C1B64 /* CBSubjectCell.xib in Resources */,
 				BCED35E01D62B9D4006664B3 /* LaunchImage-800-667h@2x.png in Resources */,
 				BC28EF981D6A97750031FAB8 /* CBTalentCell.xib in Resources */,
 				BCE6A64D1D66998C005D9748 /* play-A@3x.png in Resources */,
@@ -962,6 +1013,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC385BE41D6151B300C5BFA6 /* ViewController.swift in Sources */,
+				BCF7EBFC1D6BEA3C001C1B64 /* CBMaterialModel.swift in Sources */,
 				BC385C471D615ABE00C5BFA6 /* BaseViewController.swift in Sources */,
 				BCED57981D655AEB00BA868F /* CBSearchHeaderView.swift in Sources */,
 				BC385C4B1D615B3000C5BFA6 /* CommunityViewController.swift in Sources */,
@@ -975,14 +1027,18 @@
 				BC385C4F1D615B8B00C5BFA6 /* FoodClassViewController.swift in Sources */,
 				BC385C551D61733600C5BFA6 /* UIView+Util.swift in Sources */,
 				BC385C511D615BB800C5BFA6 /* ProfileViewController.swift in Sources */,
+				BCF7EBF51D6BDAC0001C1B64 /* CBSubjectCell.swift in Sources */,
+				BC10B7F61D6D3B0E0073AF1C /* CBMaterialCell.swift in Sources */,
 				BC385BE21D6151B300C5BFA6 /* AppDelegate.swift in Sources */,
 				BC28EF9B1D6AA6260031FAB8 /* CBWorksCell.swift in Sources */,
 				BCF33FC81D63FBAB00F458CF /* CBRecommendView.swift in Sources */,
 				BC385C451D615A6F00C5BFA6 /* MainTabBarController.swift in Sources */,
 				BC28EF931D6A90600031FAB8 /* CBSceneCell.swift in Sources */,
 				BCF33FCE1D6407F700F458CF /* UIImageView+Util.swift in Sources */,
+				BCF7EBFE1D6BF6F9001C1B64 /* CBMaterialView.swift in Sources */,
 				BC28EF971D6A97750031FAB8 /* CBTalentCell.swift in Sources */,
 				BCED35EC1D62BD70006664B3 /* KTCDownloader.swift in Sources */,
+				BCF7EC001D6BFC56001C1B64 /* KTCSegmentCtrl.swift in Sources */,
 				BC385C571D6173C500C5BFA6 /* UILabel+Util.swift in Sources */,
 				BCF33FCB1D63FF4600F458CF /* CBRecommendADCell.swift in Sources */,
 				BCED35CE1D62A860006664B3 /* Const.swift in Sources */,

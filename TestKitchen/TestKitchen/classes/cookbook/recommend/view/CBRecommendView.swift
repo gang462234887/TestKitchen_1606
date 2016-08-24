@@ -101,8 +101,14 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
                 //全部场景
                 rowNum = 1
             }else if listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue {
-                //t推荐达人
+                //推荐达人
                 rowNum = (listModel?.widget_data?.count)! / 4
+            }else if listModel?.widget_type?.integerValue == WidgetType.Works.rawValue {
+                //精选作品
+                rowNum = 1
+            }else if listModel?.widget_type?.integerValue == WidgetType.Subject.rawValue {
+                //专题
+                rowNum = (listModel?.widget_data?.count)!/3
             }
         }
         
@@ -141,6 +147,12 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
             }else if listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue {
                 //推荐达人
                 height = 80
+            }else if listModel?.widget_type?.integerValue == WidgetType.Works.rawValue {
+                //精选作品
+                height = 240
+            }else if listModel?.widget_type?.integerValue == WidgetType.Subject.rawValue {
+                //专题
+                height = 180
             }
             
         }
@@ -181,7 +193,14 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
             }else if listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue {
                 //全部场景
                 cell = CBTalentCell.createTalentCellFor(tableView, atIndexPath: indexPath, withModel: listModel!)
+            }else if listModel?.widget_type?.integerValue == WidgetType.Works.rawValue {
+                //精选作品
+                cell = CBWorksCell.createWorksCellFor(tableView, atIndexPath: indexPath, withListModel: listModel!)
+            }else if listModel?.widget_type?.integerValue == WidgetType.Subject.rawValue {
+                //专题
+                cell = CBSubjectCell.createSubjectCellFor(tableView, atIndexPath: indexPath, withlistModel: listModel!)
             }
+
         }
         
         
@@ -198,11 +217,13 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
             if listModel?.widget_type?.integerValue == WidgetType.GuessYourLike.rawValue {
                 //猜你喜欢
                 headView = CBSearchHeaderView(frame: CGRectMake(0,0,kScreenWidth,44))
-            }else if listModel?.widget_type?.integerValue == WidgetType.NewProduct.rawValue || listModel?.widget_type?.integerValue == WidgetType.Special.rawValue || listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue{
+            }else if listModel?.widget_type?.integerValue == WidgetType.NewProduct.rawValue || listModel?.widget_type?.integerValue == WidgetType.Special.rawValue || listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue || listModel?.widget_type?.integerValue == WidgetType.Works.rawValue || listModel?.widget_type?.integerValue == WidgetType.Subject.rawValue{
                 //猜你喜欢 -- GuessYourLike
                 //今日新品 -- NewProduct
                 //早餐日记 -- Special
                 //推荐达人 -- Talent
+                //精选作品 -- Works
+                //  专题  -- Subject
                 let tmpView = CBHeaderView(frame: CGRectMake(0,0,kScreenWidth,44))
                 tmpView.configTitle((listModel?.title)!)
                 headView = tmpView
@@ -219,11 +240,13 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
         if section > 0 {
             //其他情况
             let listModel = model?.data?.widgetList![section-1]
-            if listModel?.widget_type?.integerValue == WidgetType.GuessYourLike.rawValue || listModel?.widget_type?.integerValue == WidgetType.NewProduct.rawValue || listModel?.widget_type?.integerValue == WidgetType.Special.rawValue || listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue{
+            if listModel?.widget_type?.integerValue == WidgetType.GuessYourLike.rawValue || listModel?.widget_type?.integerValue == WidgetType.NewProduct.rawValue || listModel?.widget_type?.integerValue == WidgetType.Special.rawValue || listModel?.widget_type?.integerValue == WidgetType.Talent.rawValue || listModel?.widget_type?.integerValue == WidgetType.Works.rawValue || listModel?.widget_type?.integerValue == WidgetType.Subject.rawValue{
                 //猜你喜欢 -- GuessYourLike
                 //今日新品 -- NewProduct
                 //早餐日记 -- Special
                 //推荐达人 -- Talent
+                //精选作品 -- Works
+                // 专题   -- Subject
                 height = 44
             }
         }
@@ -231,7 +254,14 @@ extension CBRecommendView: UITableViewDelegate, UITableViewDataSource {
         return height
     }
     
-    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        let h:CGFloat = 44
+        if scrollView.contentOffset.y <= h && scrollView.contentOffset.y > 0{
+            scrollView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0)
+        }else {
+            scrollView.contentInset = UIEdgeInsetsMake(-h, 0, 0, 0)
+        }
+    }
 }
 
 
